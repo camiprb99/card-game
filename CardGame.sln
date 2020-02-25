@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CardGame", "CardGame", "{374CCA63-75C7-48F0-AD0A-10D5148CD8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame", "CardGame\CardGame\CardGame.csproj", "{947A9FB7-6E39-4953-8DF4-333617B3A7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Activities", "CardGame\CardGame.Activities\CardGame.Activities.csproj", "{8A455A30-B671-4165-8217-D5508E39AA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Activities.Design", "CardGame\CardGame.Activities.Design\CardGame.Activities.Design.csproj", "{3485C119-BE4B-45BF-8456-D12F4C926127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BCB8E81B-926B-4976-9349-290A723A365C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{3485c119-be4b-45bf-8456-d12f4c926127}*SharedItemsImports = 4
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{8a455a30-b671-4165-8217-d5508e39aa92}*SharedItemsImports = 4
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{947A9FB7-6E39-4953-8DF4-333617B3A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947A9FB7-6E39-4953-8DF4-333617B3A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947A9FB7-6E39-4953-8DF4-333617B3A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947A9FB7-6E39-4953-8DF4-333617B3A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A455A30-B671-4165-8217-D5508E39AA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A455A30-B671-4165-8217-D5508E39AA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A455A30-B671-4165-8217-D5508E39AA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A455A30-B671-4165-8217-D5508E39AA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3485C119-BE4B-45BF-8456-D12F4C926127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3485C119-BE4B-45BF-8456-D12F4C926127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3485C119-BE4B-45BF-8456-D12F4C926127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3485C119-BE4B-45BF-8456-D12F4C926127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{947A9FB7-6E39-4953-8DF4-333617B3A7E8} = {374CCA63-75C7-48F0-AD0A-10D5148CD8F2}
+		{8A455A30-B671-4165-8217-D5508E39AA92} = {374CCA63-75C7-48F0-AD0A-10D5148CD8F2}
+		{3485C119-BE4B-45BF-8456-D12F4C926127} = {374CCA63-75C7-48F0-AD0A-10D5148CD8F2}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {BCB8E81B-926B-4976-9349-290A723A365C}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {BCB8E81B-926B-4976-9349-290A723A365C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C6117F1-D1BE-4CAD-987D-23BB3DD98706}
+	EndGlobalSection
+EndGlobal
